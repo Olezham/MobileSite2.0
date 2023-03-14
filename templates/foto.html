@@ -1,0 +1,87 @@
+{% extends "base.html" %} {% block title %}Фотогалерея{% endblock %} 
+{% block body %}
+<div class="icons" style="width: 100%; align-items:stretch;">
+    <img src="{{ url_for('static', filename='img/1.png')}}" class="foto1ic" alt="Foto" width="169" height="211" style="position: absolute;width: 169px;height: 211px;left: 16px;top: 144.5px;">
+    <img src="{{ url_for('static', filename='img/2.png')}}" class="foto2ic" alt="Foto" width="175" height="148" style="position: absolute;
+    width: 175px;
+    height: 148px;
+    left: 200px;
+    top: 151px;">
+    <img src="{{ url_for('static', filename='img/3.png')}}" class="foto3ic" alt="Foto" width="171" height="129" style="position: absolute;
+    width: 171px;
+    height: 129px;
+    left: 16px;
+    top: 369.5px;">
+    <img src="{{ url_for('static', filename='img/4.png')}}" class="foto4ic" alt="Foto" width="175" height="236" style="height: 236px; left: 200px; top: 310px;position: absolute;">
+    <img src="{{ url_for('static', filename='img/5.png')}}" class="foto5ic" alt="Foto" width="173" height="267.5" style="position: absolute;
+    width: 173px;
+    height: 260px;
+    left: 14px;
+    top: 513.5px;">
+    <img src="{{ url_for('static', filename='img/6.png')}}" class="foto6ic" alt="Foto" width="175" height="214" style="position: absolute;
+    width: 175px;
+    height: 214px;
+    left: 200px;
+    top: 560.5px;">
+</div>
+<div class="deactivefoto foto1img"> <p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/1.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+<div class="deactivefoto foto2img"><p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/2.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+<div class="deactivefoto foto3img"><p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/3.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+<div class="deactivefoto foto4img"><p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/4.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+<div class="deactivefoto foto5img"><p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/5.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+<div class="deactivefoto foto6img"><p style="text-align: center;vertical-align: middle;"><img  style="position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;" src="{{ url_for('static', filename='img/6.png')}}" alt="" class="bigfoto"></p>  <img class="closeimgbtn" src="{{ url_for('static', filename='img/close-btn.png')}}" alt="" style="position: absolute;
+    width: 84px;
+    height: 78px;
+    left: 300px;
+    top: 30px;"></div>
+{% endblock %} 
